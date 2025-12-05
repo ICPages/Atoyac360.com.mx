@@ -46,7 +46,7 @@
     </div>
     <div class="col-md-8">
       <p id="deslarga"></p>
-      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2750">
         <h5 class="fw-bold">Galería</h5>
         <div class="carousel-inner" id="carousel-content"></div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -205,30 +205,56 @@ async function cargarNegocio() {
   const tieneSucursal1 = negocio.sucursal1 && negocio.sucursal1.trim() !== "";
   const tieneSucursal2 = negocio.sucursal2 && negocio.sucursal2.trim() !== "";
 
-  // Función para generar contactos
-  function generarContactos(sucursal, llamadas=[], whatsapp=[], facebook="", instagram="", tiktok="", web="", facebookText="Facebook", instagramText="", tiktokText="", webText="Sitio web") {
+  // Función contactos
+  function generarContactos(
+    sucursal,
+    llamadas = [],
+    whatsapp = [],
+    facebook = "",
+    instagram = "",
+    tiktok = "",
+    web1 = "", web2 = "", web3 = "",
+    facebookText = "Facebook",
+    instagramText = "",
+    tiktokText = "",
+    webText1 = "Sitio web",
+    webText2 = "Sitio web",
+    webText3 = "Sitio web"
+  ) {
     let html = "";
+
     if (
-      llamadas.some(n => n) || whatsapp.some(n => n) ||
-      facebook || instagram || tiktok || web
+      llamadas.some(n => n) ||
+      whatsapp.some(n => n) ||
+      facebook || instagram || tiktok ||
+      web1 || web2 || web3
     ) {
       if (sucursal) html += `<h6 class="fw-bold mt-2">${sucursal}</h6>`;
-      
+
       llamadas.forEach(num => {
         if (num) html += `<a href="tel:${num.replace(/\s+/g,'')}"><i class="bi bi-telephone"></i> ${num}</a><br>`;
       });
+
       whatsapp.forEach(num => {
         if (num) html += `<a href="https://wa.me/${num.replace(/\s+/g,'')}" target="_blank"><i class="bi bi-whatsapp"></i> ${num}</a><br>`;
       });
-      if (facebook) html += `<a href="https://facebook.com/${facebook}" target="_blank"><i class="bi bi-facebook"></i> ${facebookText}</a><br>`;
-      if (instagram) html += `<a href="https://instagram.com/${instagram.replace("@","")}" target="_blank"><i class="bi bi-instagram"></i> ${instagramText || instagram}</a><br>`;
-      if (tiktok) html += `<a href="https://www.tiktok.com/@${tiktok.replace("@","")}" target="_blank"><i class="bi bi-tiktok"></i> ${tiktokText || tiktok}</a><br>`;
-      if (web) html += `<a href="${web}" target="_blank"><i class="bi bi-globe"></i> ${webText}</a><br>`;
+
+      if (facebook)
+        html += `<a href="https://facebook.com/${facebook}" target="_blank"><i class="bi bi-facebook"></i> ${facebookText}</a><br>`;
+      if (instagram)
+        html += `<a href="https://instagram.com/${instagram.replace("@","")}" target="_blank"><i class="bi bi-instagram"></i> ${instagramText || instagram}</a><br>`;
+      if (tiktok)
+        html += `<a href="https://www.tiktok.com/@${tiktok.replace("@","")}" target="_blank"><i class="bi bi-tiktok"></i> ${tiktokText || tiktok}</a><br>`;
+
+      if (web1) html += `<a href="${web1}" target="_blank"><i class="bi bi-globe"></i> ${webText1}</a><br>`;
+      if (web2) html += `<a href="${web2}" target="_blank"><i class="bi bi-globe"></i> ${webText2}</a><br>`;
+      if (web3) html += `<a href="${web3}" target="_blank"><i class="bi bi-globe"></i> ${webText3}</a><br>`;
     }
+
     return html;
   }
 
-  // Sucursal 1
+  // ---------- Sucursal 1 (AQUÍ SÍ VAN LAS WEBS) ----------
   contactoHTML += generarContactos(
     negocio.sucursal1,
     [negocio.llamadas1, negocio.llamadas2],
@@ -236,11 +262,14 @@ async function cargarNegocio() {
     negocio.facebook1,
     negocio.instagram1,
     negocio.tiktok1,
-    negocio.web1,
-    negocio.facebook_text1
+    negocio.web1, negocio.web2, negocio.web3,
+    negocio.facebook_text1,
+    negocio.instagram_text1,
+    negocio.tiktok_text1,
+    negocio.web_text1, negocio.web_text2, negocio.web_text3
   );
 
-  // Sucursal 2
+  // ---------- Sucursal 2 (SIN WEBS PARA EVITAR DUPLICADOS) ----------
   contactoHTML += generarContactos(
     negocio.sucursal2,
     [negocio.llamadas3, negocio.llamadas4],
@@ -248,8 +277,10 @@ async function cargarNegocio() {
     negocio.facebook2,
     negocio.instagram2,
     negocio.tiktok2,
-    negocio.web2,
-    negocio.facebook_text2
+    "", "", "",   // ← SIN WEBS PARA NO REPETIR
+    negocio.facebook_text2,
+    negocio.instagram_text2,
+    negocio.tiktok_text2
   );
 
   document.getElementById("contacto").innerHTML = contactoHTML;
@@ -279,30 +310,30 @@ async function cargarNegocio() {
 
   // ---------- Carrusel ----------
   const carousel = document.getElementById("carousel-content");
-if (carousel) {
-  carousel.innerHTML = "";
+  if (carousel) {
+    carousel.innerHTML = "";
 
-  const imagenesCarrusel = [
-    negocio.carrucel1,
-    negocio.carrucel2,
-    negocio.carrucel3,
-    negocio.carrucel4,
-    negocio.carrucel5
-  ].filter(img => img && img !== "null" && img.trim() !== "");
+    const imagenesCarrusel = [
+      negocio.carrucel1,
+      negocio.carrucel2,
+      negocio.carrucel3,
+      negocio.carrucel4,
+      negocio.carrucel5
+    ].filter(img => img && img !== "null" && img.trim() !== "");
 
-  if (imagenesCarrusel.length === 0) {
-    document.getElementById("carouselExample").style.display = "none";
-  } else {
-    document.getElementById("carouselExample").style.display = "block";
+    if (imagenesCarrusel.length === 0) {
+      document.getElementById("carouselExample").style.display = "none";
+    } else {
+      document.getElementById("carouselExample").style.display = "block";
 
-    imagenesCarrusel.forEach((img, index) => {
-      carousel.innerHTML += `
-        <div class="carousel-item ${index === 0 ? "active" : ""}">
-          <img src="${img}" class="d-block w-100 rounded" alt="" loading="lazy" decoding="async">
-        </div>`;
-    });
+      imagenesCarrusel.forEach((img, index) => {
+        carousel.innerHTML += `
+          <div class="carousel-item ${index === 0 ? "active" : ""}">
+            <img src="${img}" class="d-block w-100 rounded" alt="" loading="lazy" decoding="async">
+          </div>`;
+      });
+    }
   }
-}
 
   // ---------- Mapas ----------
   const sucursal1Container = document.getElementById("sucursal1-container");
@@ -334,9 +365,6 @@ if (carousel) {
 cargarNegocio();
 </script>
 
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
