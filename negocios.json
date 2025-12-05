@@ -317,7 +317,7 @@
 },
 {
   "id": 30,
-  "imagen": "SinPerfil.png", "nombre": "Pozolería Las Cazuelas", "categoria": "Alimentos y Bebidas",
+  "imagen": "PLasCazuelas.png", "nombre": "Pozolería Las Cazuelas", "categoria": "Alimentos y Bebidas",
   "descorta": "Pozole tradicional con sabor casero, servido cada jueves y acompañado de un ambiente animado con música en vivo.",
   "estrellas": null, "domicilio": true, "local": true, "tarjtransf": false, "24hrs": false, "pagina": "Basic.html",
   "deslarga": "Pozolería Las Cazuelas ofrece el auténtico pozole tradicional con el sabor casero que distingue a la cocina local. Cada jueves abre sus puertas para brindar una experiencia cálida y familiar, ideal para reunirse y compartir. Además, el ambiente se enriquece con música en vivo, creando un momento agradable para disfrutar en compañía. Su propuesta combina buena comida, tradición y entretenimiento, logrando que cada visita se convierta en una noche especial para sus comensales.",
@@ -326,3 +326,4 @@
   "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d336.86716534908743!2d-100.43451184795147!3d17.208263445162544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3b005950e4bf%3A0x8c406c7acee585b5!2sPozoleria%20Las%20cazuelas!5e0!3m2!1ses-419!2smx!4v1764965512031!5m2!1ses-419!2smx"
 }
 ]
+
