@@ -175,7 +175,7 @@
   "sucursal2": "Tío Pollo Express - Tecpan",
   "horario2": "Miércoles a Lunes. 9:00 AM a 6:00 PM.",
   "llamadas3": "565 074 4752",
-  "mapa2": ""
+  "mapa2": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3810.8458244038247!2d-100.63208692318787!3d17.226267065252138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEzJzM0LjUiTiAxMDDCsDM3JzM4LjAiVw!5e0!3m2!1ses-419!2smx!4v1764874424810!5m2!1ses-419!2smx"
 },
 {
   "id": 17,
@@ -297,12 +297,32 @@
   "firebaseId": "AzulPastel",
   "imagen": "AzulPastel.png", "nombre": "Azul Pastel", "categoria": "Alimentos y Bebidas",
   "descorta": "Pastelería artesanal con productos elaborados desde cero, evitando ingredientes ultraprocesados.",
-  "estrellas": null, "domicilio": false, "local": true, "tarjtransf": false, "24hrs": false, "pagina": "Premium.html",
+  "estrellas": null, "domicilio": false, "local": true, "tarjtransf": true, "24hrs": false, "pagina": "Premium.html",
   "deslarga": "Disfruta de postres y pasteles hechos con dedicación y creatividad, preparados completamente desde cero. Cada receta se elabora de manera artesanal, evitando ingredientes ultraprocesados para garantizar sabor y calidad. Ofrecen una variedad de pasteles, postres y repostería personalizada para cualquier ocasión. El cheff Erick Quiñones combina técnica y pasión en cada creación, logrando productos únicos y deliciosos. Perfecto para cumpleaños, eventos especiales o simplemente consentirse con un dulce de calidad. Un espacio donde la tradición de la repostería se une con la innovación y el buen gusto.",
-  "horario1": "",
+  "horario1": "Pedidos previos.",
   "whatsapp1": "742 117 1605", "facebook1": "share/1Afak65qtg/", "instagram1": "@azulpastel_reposteria", "facebook_text1": "Azul Pastel",
   "mapa1": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d952.8173199875228!2d-100.4384797304587!3d17.20572128006728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzIwLjYiTiAxMDDCsDI2JzE2LjIiVw!5e0!3m2!1ses-419!2smx!4v1764865904087!5m2!1ses-419!2smx",
   "menu": "",
   "carrucel1": "AzulPastel1.png", "carrucel2": "AzulPastel2.png", "carrucel3": "AzulPastel3.png", "carrucel4": "AzulPastel4.png", "carrucel5": "AzulPastel5.png"
+},
+{
+  "id": 29,
+  "imagen": "RegalaFlores.png", "nombre": "Florería Regala Flores", "categoria": "Tiendas y Comercios",
+  "descorta": "Arreglos florales frescos y personalizados para cualquier ocasión, hechos con amor y dedicación.",
+  "estrellas": null, "domicilio": false, "local": true, "tarjtransf": false, "24hrs": false, "pagina": "Basic.html",
+  "deslarga": "Encuentra la manera perfecta de expresar tus sentimientos con hermosos arreglos florales. Cada ramo se elabora con flores frescas y de alta calidad, cuidando cada detalle del diseño. Ofrecen opciones para cumpleaños, aniversarios, bodas, funerales y celebraciones especiales. Además, brindan asesoría para elegir la combinación ideal según la ocasión y el mensaje que deseas transmitir. El servicio se complementa con entregas rápidas y atención personalizada para garantizar satisfacción total. Un espacio donde la creatividad y la belleza de la naturaleza se unen para crear momentos inolvidables.",
+  "horario1": "Lunes. 7:00 AM a 7:00 PM.<br>Martes a Sábado. 7:00 AM a 8:00 PM.<br>Domingo. 7:00 AM a 6:00 PM",
+  "whatsapp1": "744 169 1694",
+  "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d476.39502525671645!2d-100.4351730276721!3d17.21101594221181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3b9af200f2a9%3A0xeb3eba832211daca!2sFloreria%20REGALA%20FLORES!5e0!3m2!1ses-419!2smx!4v1764874050355!5m2!1ses-419!2smx"
+},
+{
+  "id": 30,
+  "imagen": "SinPerfil.png", "nombre": "Pozolería Las Cazuelas", "categoria": "Alimentos y Bebidas",
+  "descorta": "Pozole tradicional con sabor casero, servido cada jueves y acompañado de un ambiente animado con música en vivo.",
+  "estrellas": null, "domicilio": true, "local": true, "tarjtransf": false, "24hrs": false, "pagina": "Basic.html",
+  "deslarga": "Pozolería Las Cazuelas ofrece el auténtico pozole tradicional con el sabor casero que distingue a la cocina local. Cada jueves abre sus puertas para brindar una experiencia cálida y familiar, ideal para reunirse y compartir. Además, el ambiente se enriquece con música en vivo, creando un momento agradable para disfrutar en compañía. Su propuesta combina buena comida, tradición y entretenimiento, logrando que cada visita se convierta en una noche especial para sus comensales.",
+  "horario1": "Jueves. A partir de 1:30 PM.",
+  "llamadas1": "742 423 4474",
+  "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d336.86716534908743!2d-100.43451184795147!3d17.208263445162544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3b005950e4bf%3A0x8c406c7acee585b5!2sPozoleria%20Las%20cazuelas!5e0!3m2!1ses-419!2smx!4v1764965512031!5m2!1ses-419!2smx"
 }
 ]
