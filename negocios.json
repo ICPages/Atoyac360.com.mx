@@ -2,7 +2,7 @@
   {
   "id": 1,
   "firebaseId": "ICTec",
-  "imagen": "1.png", "nombre": "IC | Tecnologías", "categoria": "Servicios del Hogar y Reparaciones",
+  "imagen": "1.png", "nombre": "IC | Tecnologías", "categoria": "Servicios Profesionales",
   "descorta": "Reparación, mantenimiento y optimización de computadoras. Atención profesional para resolver fallas, mejorar el rendimiento y dejar tu equipo funcionando al 100%.",
   "estrellas": null, "domicilio": true, "local": false, "tarjtransf": true, "24hrs": false, "pagina": "Premium.html",
   "deslarga": "Cuento con formación en Ingeniería Mecatrónica e Ingeniería en Sistemas y TI, lo que me permite unir la electrónica, la automatización y los sistemas digitales para ofrecer un servicio técnico completo y confiable. Realizo reparación, mantenimiento preventivo y correctivo, optimización de equipos, instalación de programas y eliminación de fallas de software o hardware. También ofrezco armado de computadoras, desde configuraciones básicas hasta PC gamer o de alto rendimiento, adaptadas a cualquier propósito y presupuesto. Tengo experiencia en programación (Arduino, C, C#, Python), desarrollo web, electrónica y diseño de prototipos con herramientas profesionales como SolidWorks y Multisim. Además, manejo aplicaciones como Word, Excel y Canva para extender documentación bien estructurada.<br>Servicios a domicilio en:<br>✔ Atoyac de Álvarez<br>✔ San Jerónimo de Juárez<br>✔ Tecpan de Galeana",
@@ -326,5 +326,65 @@
   "horario1": "Jueves. A partir de 1:30 PM.",
   "llamadas1": "742 423 4474",
   "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d336.86716534908743!2d-100.43451184795147!3d17.208263445162544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3b005950e4bf%3A0x8c406c7acee585b5!2sPozoleria%20Las%20cazuelas!5e0!3m2!1ses-419!2smx!4v1764965512031!5m2!1ses-419!2smx"
+},
+{
+  "id": 31,
+  "imagen": "BurbuClean.png", "nombre": "Burbu Clean", "categoria": "Tiendas y Comercios",
+  "descorta": "Productos de limpieza para el hogar y negocios, con servicio a domicilio en compras mayores a $50.",
+  "estrellas": null, "domicilio": true, "local": true, "tarjtransf": false, "24hrs": false, "pagina": "Basic.html",
+  "deslarga": "Burbu Clean ofrece una gran variedad de productos de limpieza para el hogar, oficinas y comercios, garantizando calidad y precios accesibles. Encontrarás detergentes, desinfectantes, aromatizantes, jabones y más artículos esenciales para mantener tus espacios impecables. Su servicio está pensado para hacerte la vida más fácil, con atención rápida y amable. Además, cuentan con envío a domicilio en compras mayores a $50, ideal para quienes buscan comodidad sin pagar de más. Una opción práctica, confiable y cercana para tus necesidades de limpieza.",
+  "whatsapp1": "747 219 1596",
+  "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879.9546163739725!2d-100.4367642768116!3d17.207519873626705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3bd54e54dab7%3A0xade82506c72fd846!2sProductos%20de%20limpieza%20Burbu%20Clean!5e0!3m2!1ses-419!2smx!4v1765000364162!5m2!1ses-419!2smx"
+},
+{
+  "id": 32,
+  "imagen": "PLaFinca.png", "nombre": "Pozolería \"La Finca\"", "categoria": "Alimentos y Bebidas",
+  "descorta": "Pozole verde y blanco estilo Chilpancingo, preparado con sazón artesanal y el sabor tradicional que distingue a Guerrero.",
+  "estrellas": null, "domicilio": true, "local": true, "tarjtransf": false, "24hrs": false, "pagina": "Basic.html",
+  "deslarga": "Ofrecemos pozole verde y blanco con auténtico estilo chilpancingueño, preparado con ingredientes frescos y recetas tradicionales. Cada plato se elabora con dedicación, respetando el sabor artesanal que ha hecho famoso este estilo en la región. Aquí encontrarás un ambiente cálido y familiar ideal para compartir en cualquier ocasión. Nuestro lema, “Donde la artesanía se une a la perfección del sabor”, refleja el cuidado que ponemos en cada preparación. Ven a disfrutar un pozole que honra la tradición y conquista el paladar.",
+  "horario1": "Jueves. A partir de 10:00 AM.",
+  "whatsapp1": "742 100 7124", "whatsapp2": "742 113 0774",
+  "mapa1": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d952.931430773675!2d-100.43786273047765!3d17.18354828022189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDExJzAwLjgiTiAxMDDCsDI2JzE0LjAiVw!5e0!3m2!1ses-419!2smx!4v1765002126329!5m2!1ses-419!2smx",
+  "menu": "PozoleriaLaFincaMenu.pdf"
+},
+{
+  "id": 33,
+  "firebaseId": "BellasSalon",
+  "imagen": "BellasSalon.png", "nombre": "Bella's Salón", "categoria": "Belleza y Cuidado Personal",
+  "descorta": "Un espacio donde el estilo, el cuidado personal y el brillo se convierten en una experiencia única.",
+  "estrellas": null, "domicilio": false, "local": true, "tarjtransf": true, "24hrs": false, "pagina": "Premium.html",
+  "deslarga": "Un salón dedicado a resaltar la belleza de cada persona con técnicas profesionales de maquillaje y peinado. Aquí, cada detalle se cuida para ofrecer resultados que combinan estilo, elegancia y tendencias actuales. Con atención personalizada, servicios de calidad y un ambiente cómodo, cada visita se convierte en una experiencia de transformación. Perfecto para eventos, ocasiones especiales o simplemente para consentirte. Porque siempre mereces brillar.",
+  "horario1": "Lunes a Sábado. 10:00 AM a 6:00 PM.<br>Citas previas.",
+  "whatsapp1": "744 312 6354", "facebook1": "share/1BBwYFgM1w/", "instagram1": "@bellassalonmv", "facebook_text1": "Bella's Salón",
+  "mapa1": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d952.7917554178258!2d-100.4371047275222!3d17.21068496294908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzM4LjQiTiAxMDDCsDI2JzEzLjgiVw!5e0!3m2!1ses-419!2smx!4v1765039423446!5m2!1ses-419!2smx",
+  "carrucel1": "Bsalon1.png", "carrucel2": "Bsalon2.png", "carrucel3": "Bsalon3.png", "carrucel4": "Bsalon4.png", "carrucel5": "Bsalon5.png"
+},
+{
+  "id":34,
+  "imagen": "OrigenR.png", "nombre": "Origen Restaurante", "categoria": "Alimentos y Bebidas",
+  "descorta": "Cocina artesanal inspirada en la tradición italiana, elaborada con masa madre y recetas hechas desde cero.",
+  "estrellas": null, "domicilio": true, "local": true, "tarjtransf": false, "24hrs": false, "pagina": "Basic.html",
+  "deslarga": "Este restaurante ofrece una propuesta culinaria basada en el sabor auténtico de la cocina italiana, elaborando todos sus productos con masa madre 100% artesanal. Cada platillo se prepara con dedicación, ingredientes frescos y procesos que respetan los tiempos naturales de fermentación y la artesanía gastronómica. Su menú mezcla lo clásico con toques contemporáneos, dando como resultado una experiencia cálida, reconfortante y con identidad propia. Ideal para quienes buscan comida honesta, hecha a mano y con un sabor que realmente marca diferencia. Aquí encontrarás calidad, tradición y creatividad en cada bocado.",
+  "horario1": "Todos los días. 4:00 PM a 10:00 PM.", "whatsapp1": "742 113 3201",
+  "mapa1": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d952.7992327934332!2d-100.43389473045868!3d17.20923328004281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzMzLjIiTiAxMDDCsDI1JzU5LjciVw!5e0!3m2!1ses-419!2smx!4v1765041053989!5m2!1ses-419!2smx",
+  "menu": "OrigenRestauranteMenu.pdf"
+},
+{
+  "id": 35,
+  "imagen": "PGenesisAJ.png", "nombre": "Psicóloga Génesis Acosta de Jesús", "categoria": "Salud y Bienestar",
+  "descorta": "Atención psicológica profesional con enfoque humano, ideal para quienes buscan apoyo emocional y herramientas para mejorar su bienestar. Consultas presenciales y en línea.",
+  "estrellas": null, "domicilio": false, "local": true, "tarjtransf": true, "24hrs": false, "pagina": "Basic.html",
+  "deslarga": "Ofrece atención psicológica integral para niños, adolescentes y adultos, brindando un espacio seguro y de confianza para trabajar emociones, comportamientos y procesos personales. Su enfoque combina calidez humana con técnicas terapéuticas efectivas para acompañar a cada paciente en su propia historia. Las consultas pueden ser presenciales o en línea, adaptándose a las necesidades de cada persona. También se brinda apoyo en situaciones de ansiedad, estrés, duelos y desarrollo personal. Su misión es transformar vidas, una sesión a la vez, promoviendo bienestar y crecimiento emocional.",
+  "horario1": "Citas previas.", "whatsapp1": "744 449 9908",
+  "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30489.9834699188!2d-100.45334093335927!3d17.206757553572753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb25460f0c5775%3A0x2eb016bf13c5e1b1!2s40930%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764456954797!5m2!1ses-419!2smx"
+},
+{
+  "id": 36,
+  "imagen": "NKennyM.png", "nombre": "Nutriólogo Kenny Moreno", "categoria": "Salud y Bienestar",
+  "descorta": "Asesorías y consultas de nutrición personalizadas para mejorar tu salud, peso y composición corporal.",
+  "estrellas": null, "domicilio": false, "local": true, "tarjtransf": true, "24hrs": false, "pagina": "Basic.html",
+  "deslarga": "Servicio profesional de nutrición enfocado en ayudarte a cumplir tus objetivos de salud mediante planes personalizados. Se ofrecen consultas presenciales y en línea adaptadas a tu estilo de vida. Incluye control de peso, recomposición corporal, educación alimentaria y atención de enfermedades metabólicas. Cada plan se basa en hábitos sostenibles y estrategias prácticas para lograr resultados reales. Ideal para quienes buscan mejorar su bienestar de forma segura y profesional.",
+  "horario1": "Citas previas.", "whatsapp1": "744 176 1389",
+  "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30489.9834699188!2d-100.45334093335927!3d17.206757553572753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb25460f0c5775%3A0x2eb016bf13c5e1b1!2s40930%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764456954797!5m2!1ses-419!2smx"
 }
 ]
